@@ -37,7 +37,6 @@ class App extends Component {
     window.onload = () => {
       document.readyState === "complete" && remuvePreloader();
     };
-    console.log(document.location.host);
   }
   render() {
     const { PreloaderOpacity, PreloaderNo } = this.state;
