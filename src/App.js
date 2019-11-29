@@ -42,8 +42,13 @@ class App extends Component {
   render() {
     const { PreloaderOpacity, PreloaderNo } = this.state;
     return (
-      // when running on localhost:3000  delete (basename="/Haltrade2018")
-      <Router basename="/Haltrade2018">
+      <Router
+        basename={
+          document.location.host === `frontendkor.github.io`
+            ? `/Haltrade2018`
+            : ``
+        }
+      >
         <div className="App">
           <div
             className={`PreloaderContainer ${PreloaderOpacity &&
