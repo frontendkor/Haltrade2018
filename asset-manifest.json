@@ -1,7 +1,7 @@
 {
   "main.css": "/Haltrade2018/static/css/main.86e5728c.chunk.css",
-  "main.js": "/Haltrade2018/static/js/main.abdf73d6.chunk.js",
-  "main.js.map": "/Haltrade2018/static/js/main.abdf73d6.chunk.js.map",
+  "main.js": "/Haltrade2018/static/js/main.dd387d9d.chunk.js",
+  "main.js.map": "/Haltrade2018/static/js/main.dd387d9d.chunk.js.map",
   "static/js/1.873dd1a4.chunk.js": "/Haltrade2018/static/js/1.873dd1a4.chunk.js",
   "static/js/1.873dd1a4.chunk.js.map": "/Haltrade2018/static/js/1.873dd1a4.chunk.js.map",
   "runtime~main.js": "/Haltrade2018/static/js/runtime~main.e3399c9e.js",
@@ -17,6 +17,6 @@
   "static/media/ThanksImg.png": "/Haltrade2018/static/media/ThanksImg.0526e330.png",
   "static/css/main.86e5728c.chunk.css.map": "/Haltrade2018/static/css/main.86e5728c.chunk.css.map",
   "index.html": "/Haltrade2018/index.html",
-  "precache-manifest.279b6e9002a97b998fe3420e8d0b7b1a.js": "/Haltrade2018/precache-manifest.279b6e9002a97b998fe3420e8d0b7b1a.js",
+  "precache-manifest.2a3573659db64ed0481a65b886a7d4fc.js": "/Haltrade2018/precache-manifest.2a3573659db64ed0481a65b886a7d4fc.js",
   "service-worker.js": "/Haltrade2018/service-worker.js"
 }

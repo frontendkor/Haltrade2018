@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Haltrade2018/static/media/baner-img.d613082a.jpg"
   },
   {
-    "revision": "abdf73d6bfc5f58ddc83",
+    "revision": "dd387d9d79b726a01ff5",
     "url": "/Haltrade2018/static/css/main.86e5728c.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/Haltrade2018/static/media/logo.3430f768.png"
   },
   {
-    "revision": "abdf73d6bfc5f58ddc83",
-    "url": "/Haltrade2018/static/js/main.abdf73d6.chunk.js"
+    "revision": "dd387d9d79b726a01ff5",
+    "url": "/Haltrade2018/static/js/main.dd387d9d.chunk.js"
   },
   {
     "revision": "7f55992bd15cd43221cb0c13d221c5d1",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/Haltrade2018/static/media/certificate.eaecafef.jpg"
   },
   {
-    "revision": "f42bde9d57f9855cf082cea94b8646df",
+    "revision": "21a15e4f992ffd387a3a84bc37077e4c",
     "url": "/Haltrade2018/index.html"
   }
 ];
