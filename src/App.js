@@ -43,7 +43,7 @@ class App extends Component {
     const { PreloaderOpacity, PreloaderNo } = this.state;
     return (
       // when running on localhost:3000  delete (basename="/Haltrade2018")
-      <Router>
+      <Router basename="/Haltrade2018">
         <div className="App">
           <div
             className={`PreloaderContainer ${PreloaderOpacity &&
