@@ -1,0 +1,127 @@
+@import  "../../../styles/variables.sass"
+
+.form
+  margin: auto
+  max-width: 1140px
+  background: #fff
+  border: 3px solid $color1
+  padding: 40px
+  margin-top: 40px
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  @media screen and (max-width: 540px )
+    padding: 30px 25px
+  h2
+    width: 100%
+    @media screen and (max-width: 540px )
+      text-align: center
+      line-height: 30px
+  h2
+    order: 1
+    font-size: 1.5em
+    width: 100%
+    @media screen and (max-width: 720px )
+      text-align: center
+    @media screen and (max-width: 590px )
+      font-size: 1.2em
+    @media screen and (max-width: 760px )
+      margin: 0
+      margin-top: 15px
+      text-align: center
+      font-weight: 600
+
+.selectCity, .email, .phone
+  width: 49.7%
+  height: 57px
+  margin-top: 20px
+  box-sizing: border-box
+  @media screen and (max-width: 540px )
+    width: 100%
+  div
+    color: $color4
+    font-size: 0.7em
+    font-weight: 600
+  input, select 
+    width: 99%
+    height: 57px
+    box-sizing: border-box
+    border: 1px solid #929292
+    border-radius: 3px
+    color: $colorText
+    padding: 15px
+
+.selectCity
+  order: 4
+
+.selectCity, .selectVolume
+  option 
+    outline: none
+    border: none
+
+.range
+  order: 3
+  width: 100%
+  margin-bottom: 30px
+  box-sizing: border-box
+  input
+    -webkit-appearance: none
+    outline: none
+    background: $color3-2
+    height: 5px
+    border-radius: 3px
+    width: 100%
+    margin: 0
+    &::-webkit-slider-thumb
+      -webkit-appearance: none
+      cursor: pointer
+      width: 20px
+      height: 20px
+      background: $color4
+      border: solid 3px #ffffff
+      border-radius: 50px
+      transition: all 0.3s
+  div 
+    color: $color4
+    font-size: 0.7em
+    font-weight: 600
+    position: absolute
+  p 
+    width: 100%
+    font-weight: 500
+    color: $colorText
+    @media screen and (max-width: 760px )
+      text-align: center
+    @media screen and (max-width: 430px )
+      font-size: 0.8em
+    span
+      text-decoration: underline
+
+.email
+  order: 5
+
+.phone
+  order: 6
+
+.submitBtn
+  order: 7
+  background: $color4
+  color: #fff
+  border: 1px solid $colorLine2
+  box-shadow: 1px 2px 4px 0px $colorLine2
+  height: 57px
+  width: 49.7%
+  margin-top: 20px
+  transition: all 0.3s
+  cursor: pointer
+  border-radius: 3px
+  text-transform: uppercase 
+  &:active, 
+  &:focus 
+    outline: none
+  &:hover
+    background: $color4-1
+    color: #fff
+  @media screen and (max-width: 540px )
+    width: 100%
+    margin-top: 15px

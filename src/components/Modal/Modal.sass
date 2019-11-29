@@ -1,0 +1,53 @@
+.Modal
+    background: rgba(0, 0, 0, 0.6)
+    width: 100%
+    height: 100%
+    position: fixed
+    top: 0
+    bottom: 0
+    z-index: 99999999
+    display: flex
+    align-items: center
+    justify-content: center
+    align-items: stretch 
+    transition: all 0.3s
+    
+    
+.Modal-entering
+    opacity: 0
+
+
+.Modal-entered
+    opacity: 1 
+
+.Modal-exiting
+    opacity: 1
+
+.Modal-exited
+    opacity: 0
+    visibility: hidden
+   
+
+.Overlay
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 100%
+  height: 100%
+  
+
+.Close
+  height: 33px
+  width: 33px
+  color: #c9c9c9
+  opacity: 0.7
+  cursor: pointer
+  position: absolute
+  top: -30px
+  right: -55px
+  transition: all 0.3s
+  &:hover
+    opacity: 1
+  @media screen and (max-width: 675px)
+      top: 10px
+      right: 10px

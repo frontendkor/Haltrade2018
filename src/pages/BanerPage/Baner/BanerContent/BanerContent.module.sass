@@ -1,0 +1,61 @@
+@import  "../../../../styles/variables.sass"
+  
+.BanerContent
+  background: $color1
+  padding: 50px 70px
+  width: 40%
+  box-sizing: border-box
+  @media screen and (max-width: 1030px )
+    padding: 50px 60px
+  @media screen and (max-width: 960px )
+    width: 100%
+    text-align: center
+  @media screen and (max-width: 540px )
+    padding: 40px 
+
+.title
+  color: #fff 
+  font-size: 2em
+  padding: 0px
+  margin: 0px
+
+
+.decorLine
+  width: 60px
+  height: 3px
+  background: $color3
+  margin: 25px 0
+  @media screen and (max-width: 960px )
+    display: none
+
+.text
+  color: $colorLine
+  margin-bottom: 70px
+  font-size: 1.1em
+  @media screen and (max-width: 960px )
+    margin-bottom: 30px
+
+.Btn
+  display: flex
+  justify-content: center
+  align-items: center
+  transition: all 0.3s
+  cursor: pointer
+  border-radius: 3px
+  text-transform: uppercase 
+  font-weight: 600
+  background: $color3
+  color: #000
+  border: none
+  box-shadow: 1px 2px 4px 0px #245338
+  height: 57px
+  width: 250px
+  @media screen and (max-width: 960px )
+    margin: auto
+  @media screen and (max-width: 540px )
+    width: 200px
+  &:hover
+    background: $color3-1
+  &:active, 
+  &:focus 
+    outline: none

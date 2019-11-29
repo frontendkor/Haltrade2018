@@ -1,0 +1,156 @@
+@import  "../../../styles/variables.sass"
+    
+.Touch
+  width: 60px
+  height: 60px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  &:hover
+    .TouchItem
+      background-color:  $color4-1
+  &Container
+    display: flex
+    justify-content: flex-end
+  &Item 
+    width: 60px
+    height: 6px
+    border-radius: 5px
+    margin-bottom: 7px
+    background-color:  $color4
+    display: inline-block
+    transition: all 0.2s
+  
+
+.TouchItem:last-child 
+  margin-bottom: 0px
+
+.TouchItem1.open 
+  animation: TouchItem1-open .6s ease-out forwards
+
+
+.TouchItem2.open 
+  animation: TouchItem2-open .4s ease-out forwards
+
+
+.TouchItem3.open 
+  animation: TouchItem3-open .4s ease-out forwards
+
+
+@keyframes TouchItem1-open
+  0%
+    width: 60px
+
+  40%
+    background-color: $color3-2
+    width: 3px
+    transform: translate(40px, 0px)
+
+  75%, 80%
+    width: 3px
+    transform: translate(40px, -50px)
+    animation-timing-function: cubic-bezier(0, 1, 1, 1)
+
+  100%
+    background-color: $color3-2
+    height: 3px
+    width: 3px
+    transform: translate(19px, 21px)
+
+
+@keyframes TouchItem2-open
+  80%
+    width: 37px
+    background-color: $color4
+    transform: translate(0px, 0px) rotate(0deg)
+
+  100%
+    width: 35px
+    background-color: $color3-2
+    transform: translate(6px, 0px) rotate(35deg)
+
+
+@keyframes TouchItem3-open
+  80%
+    width: 37px
+    background-color: $color4
+    transform: translate(0px, 0px) rotate(0deg)
+
+  100%
+    width: 35px
+    background-color: $color3-2
+    transform: translate(6px, -13px) rotate(-35deg)
+
+
+.TouchItem1.close
+  width: 8px
+  transform: translate(27px, 26px)
+  animation: TouchItem1-close .6s ease-out forwards
+
+.TouchItem2.close
+  transform: translate(0px, 0px) rotate(40deg)
+  animation: TouchItem2-close .6s ease-out forwards
+
+.TouchItem3.close
+  transform: translate(0px, -23px) rotate(-40deg)
+  animation: TouchItem3-close .6s ease-out forwards
+
+@keyframes TouchItem1-close
+  0%, 70%
+    width: 0px
+
+  100%
+    width: 60px
+    transform: translate(0, 0)
+
+
+@keyframes TouchItem2-close
+  0%
+    background-color: $color3-2
+    width: 60px
+
+  20%
+    background-color: $color3-2
+    width: 8px
+    transform: translate(0, 0px) rotate(40deg)
+
+  40%
+    background-color: $color4
+    width: 0px
+
+  65%
+    transform: translate(0, -70px)
+    animation-timing-function: cubic-bezier(0, 1, 1, 1)
+
+  80%
+    width: 0px
+
+  100%
+    width: 60px
+    transform: translate(0, 0px)
+
+
+@keyframes TouchItem3-close
+  0%
+    background-color: $color3-2
+    width: 60px
+
+  20%
+    background-color: $color3-2
+    width: 8px
+    transform: translate(0, -23px) rotate(-40deg)
+
+  40%
+    background-color: $color4
+
+  65%
+    transform: translate(0, -93px)
+    animation-timing-function: cubic-bezier(0, 1, 1, 1)
+
+  90%
+    width: 8px
+
+  100%
+    width: 60px
+    transform: translate(0, 0px)

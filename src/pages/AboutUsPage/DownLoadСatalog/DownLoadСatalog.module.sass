@@ -1,0 +1,43 @@
+@import  "../../../styles/variables.sass"
+  
+.DownloadСatalog
+ display: flex
+ flex-direction: row
+ align-items: center
+ justify-content: center
+ margin-bottom: 60px
+ @media screen and(max-width: 740px)
+   flex-direction: column
+
+h3 
+  color: $colorTitle
+  padding-right: 40px
+  font-size: 1.6em
+  @media screen and(max-width: 952px)
+    font-size: 1em
+  @media screen and (max-width: 540px )
+    padding-right: 0px
+
+.span 
+  color: $color4
+
+.Btn
+  transition: all 0.3s
+  cursor: pointer
+  border-radius: 3px
+  text-transform: uppercase 
+  background: $color4
+  color: #fff
+  border: 1px solid $colorLine2
+  box-shadow: 1px 2px 4px 0px $colorLine2
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 57px
+  width: 250px
+  &:hover
+    background: $color4-1
+    color: #fff
+  &:active, 
+  &:focus 
+    outline: none

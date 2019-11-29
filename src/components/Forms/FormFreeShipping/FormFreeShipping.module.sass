@@ -1,0 +1,86 @@
+@import  "../../../styles/variables.sass"
+
+
+.FormFreeShipping
+    background: $color1
+    margin-top: 5px 
+    padding: 25px 0
+    display: flex
+    @media screen and (max-width: 880px )
+        padding: 35px 0
+    @media screen and (max-width: 540px )
+        flex-direction: column
+        width: 100%
+        
+
+.ic
+    display: flex
+    align-items: center
+    justify-content: center
+    flex: 0 0 30%
+    @media screen and (max-width: 1120px )
+        flex: 0 0 35%
+
+
+.content
+    flex: 1 0 auto
+    padding-right: 35px
+    @media screen and (max-width: 880px )
+        flex: 1 0 65%
+    @media screen and (max-width: 540px )
+        padding-right: 0
+        padding-bottom: 70px
+    
+ 
+
+.title
+    color: #ffffff
+    font-size: 1.3em
+    @media screen and (max-width: 780px )
+        width: 250px
+    @media screen and (max-width: 540px )
+        width: 100%
+        max-width: 220px
+        margin: auto
+        margin-top: 30px
+        text-align: center
+    &Container
+        
+
+.subtitle
+    color: $colorLine
+    @media screen and (max-width: 780px )
+        font-size: 0.9em
+    @media screen and (max-width: 540px )
+        width: 80%
+        margin: auto
+        margin-bottom: 40px
+        text-align: center
+    
+
+.Btn
+    background: $color3
+    color: #000
+    border: none
+    box-shadow: 1px 2px 4px 0px #245338
+    font-weight: 600
+    height: 57px
+    width: 90%
+    max-width: 360px
+    transition: all 0.3s
+    cursor: pointer
+    border-radius: 3px
+    text-transform: uppercase 
+    &:active, 
+    &:focus 
+    outline: none
+    &:hover
+        background: $color3-1
+    @media screen and (max-width: 540px )
+        display: block
+        margin: auto
+        width: 80%
+    @media screen and (max-width: 420px )
+        font-size: 0.7em
+
+

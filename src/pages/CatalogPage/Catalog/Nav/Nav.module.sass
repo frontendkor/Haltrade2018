@@ -1,0 +1,29 @@
+@import  "../../../../styles/variables.sass"
+
+.nav
+  display: flex
+  flex-direction: column
+  background: $color1
+  box-sizing: border-box
+  text-align: center
+  position: absolute
+  width: calc(100% / 12 * 3 - 30px)
+  margin: 15px
+  z-index: 55
+  @media screen and (max-width: 1020px )
+    width: calc(100% / 12 * 4 - 30px)
+  @media screen and (max-width: 760px )
+    width: calc(100% / 12 * 6 - 30px)
+  @media screen and (max-width: 460px )
+    width: calc(100% - 30px)
+
+
+.linkActive
+  background: $color3-1
+  color: #000
+  &:hover
+    color: #000
+
+
+  
+    

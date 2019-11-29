@@ -1,0 +1,122 @@
+@import  "../../../styles/variables.sass"
+
+@keyframes FormModal
+  0%
+      transform: scale(0.6)
+  100%
+      transform: scale(1)
+
+.FormModalProduct
+    animation: FormModal 0.5s
+    background: #ffffff
+    width: 83%
+    max-width: 900px
+    padding: 30px
+    display: flex
+    flex-direction: row
+    box-sizing: border-box
+    position: relative
+    margin: auto
+    border-radius: 3px
+    @media screen and(max-width: 820px)
+        flex-wrap: wrap
+
+
+.img 
+    width: 35%
+    position: relative
+    img 
+        width: 100%
+    @media screen and(max-width: 820px)
+        width: 60%
+        margin: auto
+
+.content
+    width: 65%
+    @media screen and(max-width: 820px)
+        width: 100%
+
+.description
+    p 
+        font-weight: 700
+        span 
+            font-weight: 400
+    .decorLine
+        width: 70px
+        height: 3px
+        border-radius: 3px
+        background: $color3
+
+.form
+    background: $color1
+    padding: 27px
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    border-radius: 3px
+    h2 
+        color: #fff 
+        width: 100%
+        margin: 0
+        margin-bottom: 15px
+    p 
+        color: $colorLine2
+        font-size: 1.1em
+        margin: 0
+        margin-bottom: 15px
+        font-weight: 500
+        width: 100%
+
+.name, .phone 
+    width: 50%
+    box-sizing: border-box
+    position: relative
+    margin: 23px 0
+    @media screen and(max-width: 560px)
+        width: 100%
+        margin: 0 0 20px 0
+    input 
+        width: 97%
+        height: 50px
+        padding: 15px
+        box-sizing: border-box
+        border-radius: 3px
+        border: none
+        color: $colorText
+        @media screen and(max-width: 560px)
+            width: 100%
+    div 
+        position: absolute
+        font-size: 0.7em
+        color: $color3
+        margin: 0
+        bottom: -15px
+        
+
+.phone
+    display: flex
+    justify-content: flex-end
+    div 
+        width: 97%
+        text-align: left
+        @media screen and(max-width: 560px)
+            width: 100%
+
+
+.Btn
+    background: $color3
+    color: #000
+    border: none
+    box-shadow: 1px 2px 4px 0px #245338
+    font-weight: 600
+    height: 50px
+    width: 100%
+    transition: all 0.3s
+    cursor: pointer
+    border-radius: 3px
+    text-transform: uppercase 
+    &:active, 
+    &:focus 
+    outline: none
+    &:hover
+        background: $color3-1

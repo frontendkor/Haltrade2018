@@ -1,0 +1,153 @@
+@import  "../../styles/variables.sass"
+  
+footer 
+  width: 100%
+  background: $color2
+  display: flex
+  flex-direction: row
+  padding-top: 50px
+  padding-bottom: 60px
+
+
+
+.Content
+  display: flex
+  @media screen and (max-width: 1220px)
+    flex-direction: column
+
+
+
+.LogoIcContainer
+  width: 30%
+  @media screen and (max-width: 1220px)
+    width: 100%
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    order: 2
+    margin-top: 30px
+
+
+.Logo
+  width: 85%
+  max-width: 320px
+  height: 65px
+  box-sizing: border-box
+  @media screen and (max-width: 1220px)
+    width: 150px
+    height: 30px
+    margin-right: 15px
+
+.IcLink
+  position: relative
+  border: solid 2px $color1
+  display: flex
+  width: 35px
+  height: 35px
+  border-radius: 50px
+  position: relative
+  margin-left: 13px
+  margin-top: 15px
+  transition: all 0.3s
+  &:hover
+    background: $color1
+    .Ic
+      color: #fff
+  @media screen and (max-width: 1220px)
+    margin-left: 0
+    margin-top: 0
+
+.Ic
+  color: $color4
+  &Container 
+    display: flex
+    flex-direction: row
+    justify-content: flex-end
+    width: 85%
+    @media screen and (max-width: 1220px)
+      max-width: 96px
+      justify-content: space-between
+
+.IcVk
+  position: absolute
+  top: 8px
+  left: 6px
+  width: 22px
+  height: 22px
+
+.IcInstagram
+  position: absolute
+  top: 7px
+  left: 8px
+  width: 19px
+  height: 19px
+
+
+
+
+.Info
+  width: 70%
+  box-sizing: border-box
+  @media screen and (max-width: 1220px)
+    width: 100%
+    order: 1
+
+.Contacts
+  margin-bottom: 20px
+  box-sizing: border-box
+  display: flex
+  justify-content: space-between
+  align-items: center
+  @media screen and (max-width: 1220px)
+    justify-content: center
+  @media screen and (max-width: 820px)
+    flex-direction: column
+
+.Email
+  display: flex
+  p 
+    margin: 0
+    color: $colorText
+  a 
+    color: $color4
+    text-decoration: underline
+    margin-left: 10px
+    &:hover 
+      text-decoration: none
+
+.Messenger
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  a 
+    color: #000000
+    text-decoration: underline
+    &:hover 
+      text-decoration: none
+  span 
+    font-size: 0.8em
+    color: $colorText
+  @media screen and (max-width: 1220px)
+    margin: 0 30px
+  @media screen and (max-width: 820px)
+    margin: 20px 0
+
+
+
+
+.Text
+  box-sizing: border-box
+  display: flex
+  align-items: center
+  justify-content: center
+  p 
+    margin: 0
+    font-size: 0.7em
+    text-align: justify
+    color: $colorText
+    @media screen and (max-width: 1220px)
+      width: 80%
+    @media screen and (max-width: 820px)
+      text-align: center

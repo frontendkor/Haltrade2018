@@ -1,0 +1,54 @@
+@import  "../../../styles/variables.sass"
+  
+.item
+  display: flex
+  flex-direction: row
+  align-items: center
+  border-top: solid 1px $colorLine
+  padding-top: 10px
+  padding-bottom: 10px
+  @media screen and (max-width: 540px)
+    flex-direction: column
+    padding-top: 20px
+    padding-bottom: 20px
+    max-width: 350px
+
+.icContainer 
+    width: 10%
+    max-width: 60px
+    min-width: 50px
+    position: relative
+    display: flex
+    justify-content: center
+    svg
+      height: 30px
+      color: $color1
+
+
+.title
+  width: 35%
+  min-width: 200px
+  @media screen and (max-width: 540px)
+    margin: 0
+.title2
+  color: $colorText
+  @media screen and (max-width: 680px)
+    font-size: 0.9em
+    @media screen and (max-width: 540px)
+      padding: 0
+
+.text
+  width: 55%
+  max-width: 300px
+  @media screen and (max-width: 540px)
+    margin: 0
+
+.title, .title2, .text
+  @media screen and (max-width: 540px)
+    width: 100%
+    text-align: center
+
+.link
+  color: #000
+  &:hover
+    color: $color1

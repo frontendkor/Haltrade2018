@@ -1,0 +1,26 @@
+@import  "../../../styles/variables.sass"
+
+  
+.nav
+  display: flex
+  flex-direction: row
+  justify-content: center
+  width: 100%
+  flex: 1 0 auto
+  @media screen and (max-width: 980px )
+    flex-wrap: wrap
+
+.navItem
+  @media screen and (max-width: 980px )
+    width: 100%
+  a 
+    display: block
+    padding: 20px 
+    color: $colorNav
+    text-transform: uppercase
+    transition: all 0.2s
+    &:hover
+      color: $color4-1
+    @media screen and (max-width: 1040px )
+        font-size: 0.8em
+  

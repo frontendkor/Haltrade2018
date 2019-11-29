@@ -1,0 +1,92 @@
+@import  "../../../styles/variables.sass"
+    
+.form 
+    background: $color1
+    width: 90%
+    max-width: 555px
+    box-sizing: border-box
+    padding: 50px 60px
+    margin: auto
+    border-radius: 3px
+    @media screen and(max-width: 680px)
+        width: 96%
+        padding: 50px 35px
+        min-width: 246px
+    h2 
+      margin-top: 0
+      color: #ffffff
+      width: 100%
+      text-align: center
+      font-size: 26px
+      @media screen and(max-width: 640px)
+        font-size: 20px 
+      @media screen and(max-width: 420px)
+        font-size: 16px
+    h4
+      color: $colorLine2
+      width: 100%
+      text-align: center
+      font-size: 1.3em
+      font-weight: 400
+      @media screen and(max-width: 720px)
+          font-size: 1.1em
+          padding: 0 30px
+          box-sizing: border-box
+          margin-bottom: 0
+      @media screen and(max-width: 640px)
+          font-size: 0.9em
+      @media screen and(max-width: 420px)
+          padding: 0
+
+
+.name, .phone, .select
+    width: 100%
+    position: relative
+    input, select 
+        width: 100%
+        border-radius: 3px
+        border: solid 1px $colorLine2
+        height: 57px
+        margin-top: 28px
+        padding: 15px
+        box-sizing: border-box
+        color: $colorText
+        font-size: 1.2em
+        &:hover 
+            color: $colorText
+        @media screen and(max-width: 550px)
+            font-size: 0.9em
+    div 
+        position: absolute
+        color: $color3
+        font-size: 0.9em
+        @media screen and(max-width: 720px)
+            font-size: 0.7em
+
+.Btn
+    transition: all 0.3s
+    cursor: pointer
+    border-radius: 3px
+    text-transform: uppercase 
+    font-size: 1.1em
+    font-weight: 500
+    background: $color3
+    color: #000
+    border: none
+    box-shadow: 1px 2px 4px 0px #245338
+    width: 100%
+    max-width: 250px
+    height: 57px
+    display: block
+    margin: auto
+    margin-top: 30px
+    @media screen and(max-width: 550px)
+        width: 100%
+        max-width: 400px
+        font-size: 0.9em
+    &:hover
+        background: $color3-1
+    &:active, 
+    &:focus 
+        outline: none
+    

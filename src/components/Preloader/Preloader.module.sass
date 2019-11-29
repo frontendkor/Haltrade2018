@@ -1,0 +1,19 @@
+@import  "../../styles/variables.sass"
+
+@keyframes spinner
+    0% 
+        transform: rotate(0deg)
+    100% 
+        transform: rotate(360deg)
+  
+
+    
+.PreloaderContainer
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-bottom: 80px
+    svg
+        height: 40px
+        color: $color1
+        animation: spinner 1s linear 0s normal none infinite running 

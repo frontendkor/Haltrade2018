@@ -1,0 +1,44 @@
+.Quality
+  padding: 70px 0
+  display: flex
+  flex-wrap: wrap
+  
+.textDecorLine
+  composses: textDecorLine from "../AboutUs/AboutUs.module.css"
+
+.CertificateContainer, .VideoContainer
+  width: 50%
+  box-sizing: border-box
+  display: flex
+  margin-top: 50px
+  @media screen and (max-width: 890px)
+    width: 100%
+
+.CertificateContainer
+  display: flex
+  justify-content: flex-end
+  padding: 5px
+  @media screen and (max-width: 890px)
+    justify-content: center
+  img 
+    margin-left: 15px
+    width: 100%
+    max-width: 530px
+    @media screen and (max-width: 890px)
+      margin-left: 0
+      height: 200px
+      width: auto
+
+
+.VideoContainer
+  position: relative
+  display: flex
+  justify-content: flex-start
+  padding: 5px
+  @media screen and (max-width: 890px)
+    justify-content: center
+  iframe 
+    height: 315px
+    width: 100%
+    max-width: 530px
+

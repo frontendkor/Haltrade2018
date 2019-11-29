@@ -1,0 +1,114 @@
+@import  "variables.sass"
+
+html, body, #root
+  margin: 0
+  padding: 0
+  min-height: 100%
+  min-width: 340px
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+code
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
+
+a 
+  text-decoration: none
+  cursor: pointer
+
+input[type="text"], input[type="email"], select
+  &:active, &:hover, &:focus 
+    outline: 0
+    outline-offset: 0
+    color: $colorText
+
+.opacity
+  opacity: 0
+
+
+// Header, Content, Footer =======================
+.App
+  display: flex
+  flex-direction: column
+  height: 100%
+  min-height: 100%
+
+header
+  flex: 0 0 auto
+  nav a.active
+    color: $color4
+  
+.content
+  flex: 1 0 auto
+  margin-top: 148px
+  @media screen and (max-width: 1120px )
+    margin-top: 140px
+  @media screen and (max-width: 980px )
+    margin-top: 80px
+
+footer 
+  flex: 0 0 auto
+
+
+
+
+// Greed ================================
+.container
+  max-width: 1140px
+  margin: 0 auto
+  padding: 0 30px
+  @media screen and (max-width: 1120px )
+    width: 88%
+  @media screen and (max-width: 540px )
+    width: 80%
+
+.row 
+  margin: 0px -15px
+  display: flex
+  flex-wrap: wrap
+  position: relative
+
+
+.col1
+  width: 100%
+  padding: 15px 15px
+
+
+
+// Routing animation =======================
+.page-appear,
+.page-enter 
+    opacity: 0
+
+.page-appear-active,
+.page-enter.page-enter-active 
+    opacity: 1
+    transition: opacity 300ms linear 150ms
+
+.page-exit 
+    opacity: 1
+
+.page-exit.page-exit-active 
+    opacity: 0
+    transition: opacity 300ms linear 150ms
+
+
+// Preloader =======================
+.PreloaderContainer
+  transition: all .8s
+  z-index: 99999999999999
+  position: fixed
+  top: 0
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 100%
+  height: 100%
+  background: #fff
+  &No 
+    display: none
+  div 
+    margin-bottom: 0
+
+
+

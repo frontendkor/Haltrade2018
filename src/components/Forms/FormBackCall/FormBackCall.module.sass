@@ -1,0 +1,30 @@
+@import  "../../../styles/variables.sass"
+
+.link
+  margin-right: 15px
+  color: #000
+  transition: all 0.2s
+  &:hover
+    color: $color3-2
+  @media screen and (max-width: 1160px )
+    font-size: 0.8em
+  @media screen and (max-width: 1120px )
+    display: none
+
+.Btn
+  transition: all 0.3s
+  cursor: pointer
+  border-radius: 3px
+  text-transform: uppercase
+  background: $color4
+  color: #fff
+  border: 1px solid $colorLine2
+  box-shadow: 1px 2px 4px 0px $colorLine2
+  height: 40px
+  width: 170px
+  &:active, 
+  &:focus 
+    outline: none
+  &:hover
+    background: $color4-1
+    color: #fff

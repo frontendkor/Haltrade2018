@@ -1,0 +1,80 @@
+@import  "../../../styles/variables.sass"
+
+@keyframes FormModal
+  0%
+      transform: scale(0.6)
+  100%
+      transform: scale(1)
+
+    
+.form 
+    animation: FormModal 0.5s
+    box-sizing: border-box
+    width: 90%
+    max-width: 450px
+    background: $color1
+    position: relative
+    padding: 40px 30px
+    border: solid 10px #fff
+    border-radius: 4px
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    margin: auto
+    @media screen and (max-width: 580px)
+       border: solid 5px #fff 
+       min-width: 305px
+       max-width: auto
+       padding: 50px 30px
+    h2
+        color: $color3-2
+        width: 100%
+        text-align: center
+        font-size: 2em
+        margin: 0
+        line-height: 25px
+    p
+        color: $colorLine2
+        font-size: 1.1em
+        margin: 0
+        margin-top: 15px
+        margin-bottom: 30px
+        font-weight: bold
+        text-align: center
+
+.name, .phone, 
+    width: 100%
+    position: relative
+    margin-bottom: 25px
+    input
+        width: 100%
+        height: 55px
+        padding: 15px
+        box-sizing: border-box
+        border-radius: 3px
+        border: none
+        color: $colorText
+    div 
+        position: absolute
+        font-size: 0.8em
+        color: $color3
+        margin: 0
+
+.Btn
+    background: $color3
+    color: #000
+    border: none
+    box-shadow: 1px 2px 4px 0px #245338
+    font-weight: 600
+    height: 57px
+    width: 100%
+    transition: all 0.3s
+    cursor: pointer
+    border-radius: 3px
+    text-transform: uppercase 
+    &:active, 
+    &:focus 
+    outline: none
+    &:hover
+        background: $color3-1
