@@ -2,6 +2,7 @@
   "name": "halal",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://frontendkor.github.io/Haltrade2018/",
   "dependencies": {
     "node-sass": "^4.12.0",
     "prop-types": "^15.6.2",
@@ -21,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,6 +38,7 @@
   "devDependencies": {
     "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-prettier": "^3.0.1",
+    "gh-pages": "^2.1.1",
     "redux-logger": "^3.0.6"
   }
 }
