@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Haltrade2018/precache-manifest.6e7ce7203cf41d7f79581d9db412fb4e.js"
+  "/Haltrade2018/precache-manifest.279b6e9002a97b998fe3420e8d0b7b1a.js"
 );
 
 workbox.clientsClaim();
