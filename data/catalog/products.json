@@ -1,0 +1,271 @@
+[{
+        "id": "chickenСarcass",
+        "title": "Тушка цеплёнка",
+        "сarcass": true,
+        "showCase": true,
+        "weight": "1,7-2.2",
+        "weightPacking": "12",
+        "storageTemperature": "от 0°С до +6°С",
+        "shelfLife": "7 месяцев заморозка",
+        "packaging": "пакет"
+    },
+    {
+        "id": "duckСarcass",
+        "title": "Тушка утки",
+        "сarcass": true,
+        "showCase": true,
+        "weight": "2.0-2.6",
+        "weightPacking": "10-11",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "пакет"
+    },
+    {
+        "id": "hipTray",
+        "title": "Бедро",
+        "cutting": true,
+        "tray": true,
+        "showCase": true,
+        "weight": "1.2-1.3",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "лоток"
+    },
+    {
+        "id": "shinTray",
+        "title": "Голень",
+        "cutting": true,
+        "tray": true,
+        "showCase": true,
+        "weight": "1.2-1.3",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "лоток"
+    },
+    {
+        "id": "breastTray",
+        "title": "Грудка",
+        "cutting": true,
+        "tray": true,
+        "showCase": true,
+        "weight": "1.2-1.3",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "лоток"
+    },
+    {
+        "id": "wingTray",
+        "title": "Крыло",
+        "cutting": true,
+        "tray": true,
+        "showCase": true,
+        "weight": "1.2-1.3",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "лоток"
+
+    },
+    {
+        "id": "thighFilletTray",
+        "title": "Филе бедра",
+        "cutting": true,
+        "tray": true,
+        "showCase": true,
+        "weight": "1.2-1.3",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "лоток"
+
+    },
+    {
+        "id": "hamTray",
+        "title": "Окорочок",
+        "cutting": true,
+        "tray": true,
+        "showCase": true,
+        "weight": "1.2-1.3",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "лоток"
+
+    },
+    {
+        "id": "breastFilletTray",
+        "title": "Филе грудки",
+        "cutting": true,
+        "tray": true,
+        "showCase": true,
+        "weight": "1.2-1.3",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "лоток"
+
+    },
+    {
+        "id": "stomachOffal",
+        "title": "Желудки",
+        "offal": true,
+        "tray": true,
+        "showCase": true,
+        "weight": "1.2-1.3",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "лоток"
+
+    },
+    {
+        "id": "heartsOffal",
+        "title": "Сердечки",
+        "offal": true,
+        "tray": true,
+        "showCase": true,
+        "weight": "1.2-1.3",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "лоток"
+
+    },
+    {
+        "id": "liverOffal",
+        "title": "Печень",
+        "offal": true,
+        "tray": true,
+        "showCase": true,
+        "weight": "1.2-1.3",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "лоток"
+
+    },
+    {
+        "id": "neckOffal",
+        "title": "Шея",
+        "offal": true,
+        "tray": true,
+        "showCase": true,
+        "weight": "1.2-1.3",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "лоток"
+
+    },
+    {
+        "id": "hipMonolith",
+        "title": "Бедро",
+        "cutting": true,
+        "monolith": true,
+        "showCase": true,
+        "weight": "развес",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "монолит"
+    },
+    {
+        "id": "filletMonolith",
+        "title": "Филе",
+        "cutting": true,
+        "monolith": true,
+        "showCase": true,
+        "weight": "развес",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "монолит"
+    },
+    {
+        "id": "shinMonolith",
+        "title": "Голень",
+        "cutting": true,
+        "monolith": true,
+        "showCase": true,
+        "weight": "развес",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "монолит"
+    },
+    {
+        "id": "breastMonolith",
+        "title": "Грудка",
+        "cutting": true,
+        "monolith": true,
+        "showCase": true,
+        "weight": "развес",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "монолит"
+    },
+    {
+        "id": "wingMonolith",
+        "title": "Крыло",
+        "cutting": true,
+        "monolith": true,
+        "showCase": true,
+        "weight": "развес",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "монолит"
+    },
+    {
+        "id": "hamMonolith",
+        "title": "Окорочок",
+        "cutting": true,
+        "monolith": true,
+        "showCase": true,
+        "weight": "развес",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "монолит"
+    },
+    {
+        "id": "headsProcessing",
+        "title": "Головы",
+        "monolith": true,
+        "processing": true,
+        "showCase": true,
+        "weight": "развес",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "монолит"
+    },
+    {
+        "id": "skinProcessing",
+        "title": "Кожа",
+        "monolith": true,
+        "processing": true,
+        "showCase": true,
+        "weight": "развес",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "монолит"
+    },
+    {
+        "id": "stuffingProcessing",
+        "title": "Фарш",
+        "monolith": true,
+        "processing": true,
+        "showCase": true,
+        "weight": "развес",
+        "weightPacking": "10-13",
+        "storageTemperature": "-18°С",
+        "shelfLife": "12 месяцев",
+        "packaging": "монолит"
+    }
+]
